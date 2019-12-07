@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<div class="content-section">
+    <form method="POST" action="">
+        {{ form.hidden_tag() }}
+        <fieldset class="form-group">
+            <legend class="border-bottom mb-4">{{ legend }}</legend>
+            <div class="form-group">
+                Store Number
+                <input type="number" name="store_number" min="0">
+            </div>
+        </fieldset>
+        <div class="form-group">
+            {{ form.submit(class="btn btn-outline-info") }}
+        </div>
+    </form>
+</div>
+
+
+{% if products %}
+<article class="media content-section">
+    <div class="media-body">
+        <div class="article-metadata">
+            <h3><a class="mr-2"> Cart for store number {{ store_number }}:</a></h3>
+        </div>
+        {% for product in products %}
+        <h6><a class="article-content"> {{ product[1] }} units of {{ product[3] }} : product number is {{ product[0] }}</a></h6>
+        {% endfor %}
+    </div>
+</article>
+{% endif %}
+
+
+{% endblock content %}

@@ -1,0 +1,51 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="content-section">
+    <form method="POST" action="">
+        {{ form.hidden_tag() }}
+        <fieldset class="form-group">
+            <legend class="border-bottom mb-4">{{ legend }}</legend>
+            <div class="form-group">
+                {{ form.attribute.label(class="form-control-label") }}
+                {{ form.attribute(class="custom-select custom-select-lg mb-3") }}
+
+            </div>
+            <div class="form-group">
+                {{ form.value.label(class="form-control-label") }}
+                {% if form.value.errors %}
+                {{ form.value(class="form-control form-control-lg is-invalid") }}
+                <div class="invalid-feedback">
+                    {% for error in form.value.errors %}
+                    <span>{{ error }}</span>
+                    {% endfor %}
+                </div>
+                {% else %}
+                {{ form.value(class="form-control form-control-lg") }}
+                {% endif %}
+            </div>
+        </fieldset>
+        <div class="form-group">
+            {{ form.submit(class="btn btn-outline-info") }}
+        </div>
+    </form>
+</div>
+
+{% for product in products %}
+<article class="media content-section">
+    <div class="media-body">
+        <div class="article-metadata">
+            <h3><a class="mr-2"> {{ product[1] }}</a></h3>
+        </div>
+        <h6><a class="article-content"> Catalog number: {{ product[0] }}</a></h6>
+        <h6><a class="article-content"> Price: {{ product[2] }}$</a></h6>
+        <h6><a class="article-content"> Category: {{ product[3] }}</a></h6>
+        <h6><a class="article-content"> Store Number: {{ product[4] }}</a></h6>
+        <h6><a class="article-content"> Amount Left: {{ product[5] }}</a></h6>
+        {% if product[8] > 0 %}
+        <h6 style="color:red;"><a class="article-content"> Age Restriction: {{ product[8] }}</a></h6>
+        {% endif %}
+    </div>
+</article>
+{% endfor %}
+
+{% endblock content %}

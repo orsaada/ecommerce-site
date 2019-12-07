@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+{% block content %}
+
+    <div class="content-section">
+    <form method="POST" action="">
+        {{ form.hidden_tag() }}
+        <fieldset class="form-group">
+            <legend class="border-bottom mb-4">{{ legend }}</legend>
+
+            <div class="form-group">
+                Store Number
+                <input type="number" name="store_number" min="0">
+            </div>
+
+            <div class="form-group">
+                Minimum Quantity
+                <input type="number" name="minimum_quantity" min="0">
+            </div>
+
+            <div class="form-group">
+                Maximum Quantity
+                <input type="number" name="maximum_quantity" min="0">
+            </div>
+
+        </fieldset>
+        <div class="form-group">
+            {{ form.submit(class="btn btn-outline-info") }}
+        </div>
+
+    </form>
+</div>
+
+{% endblock content %}

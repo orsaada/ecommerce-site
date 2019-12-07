@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>9</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>513</x>
+      <y>216</y>
+      <w>198</w>
+      <h>468</h>
+    </coordinates>
+    <panel_attributes>Ecommerce
+--
+-complaints
+--
+is_subscriber()
+is_guest()
+get_if_subscriber()
+get_if_admin()
+get_if_manager()
+get_if_owner()
+get_store()
+search_product()
+add_to_cart()
+remove_from_Cart()
+show_cart()
+show_store()
+login()
+logout()
+open_new_store()
+get_next_complaint()
+register()
+close_permanently()
+remove_subscriber()
+add_new_product()
+add_store_owner()
+add_store_manager()
+inc_product_amount()
+remove_product()
+change_details_of_product()
+remove_store_owner()
+remove_store_manager()
+close_store()
+make_purchase()
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1008</x>
+      <y>207</y>
+      <w>198</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>Product
+--
+-name
+-price
+-category
+-key_words
+-catalog_number
+--
+set_name()
+set_price()
+set_category()
+set_key_words()
+change_detail()
+    </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>747</x>
+      <y>234</y>
+      <w>198</w>
+      <h>396</h>
+    </coordinates>
+    <panel_attributes>Store
+--
+-name
+-store_number
+-appoints_list
+-owners
+-managers
+-is_open
+-supervisor
+--
+add_new_product()
+inc_product_amount()
+remove_product()
+set_name()
+set_price()
+set_category()
+set_key_words()
+search_product()
+search_by_name()
+search_by_category()
+search_by_key_words()
+get_product()
+is_owner()
+is_manager()
+is_appoint_of()
+add_candidate()
+remove_appointed()
+remove_appoints_of_appointed()
+    </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1224</x>
+      <y>216</y>
+      <w>198</w>
+      <h>153</h>
+    </coordinates>
+    <panel_attributes>ShoppingBasket
+--
+
+--
+is_empty()
+contains()
+add_cart()
+remove_cart()
+add_product_to_cart()
+remove_product_from_cart()
+calculate_price()
+
+
+    </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>693</x>
+      <y>738</y>
+      <w>198</w>
+      <h>153</h>
+    </coordinates>
+    <panel_attributes>SupplySystem
+--
+--
+supply()
+    </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1368</x>
+      <y>405</y>
+      <w>198</w>
+      <h>135</h>
+    </coordinates>
+    <panel_attributes>ShoppingCart
+--
+-store_number
+-products
+--
+is_empty()
+contains()
+add_product()
+remove_product()
+calculate_price()
+
+    </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>909</x>
+      <y>774</y>
+      <w>198</w>
+      <h>153</h>
+    </coordinates>
+    <panel_attributes>DeliverySystem
+--
+--
+delivery()
+    </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1134</x>
+      <y>774</y>
+      <w>198</w>
+      <h>153</h>
+    </coordinates>
+    <panel_attributes>PaymentSystem
+--
+--
+charge()
+cancel()
+    </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1377</x>
+      <y>576</y>
+      <w>198</w>
+      <h>216</h>
+    </coordinates>
+    <panel_attributes>Transaction
+--
+-transaction_id
+-totalPrice
+-buyer
+-store_number
+-store_account
+-payment_method
+-payment_details
+-address
+-payment_status
+-delivery_status
+--
+update_payment_status()
+update_delivery_status()
+
+    </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1035</x>
+      <y>612</y>
+      <w>198</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>TransactionManagement
+--
+-payment_system
+-delivery_system
+--
+execute_transaction()
+get_transactions()
+get_transactions_by_store()
+get_transactions_by_identifier()
+
+    </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>288</x>
+      <y>216</y>
+      <w>198</w>
+      <h>441</h>
+    </coordinates>
+    <panel_attributes>User
+--
+identifier
+username
+name
+password
+is_logged_in
+shopping_basket
+--
+check_details()
+search_product()
+add_to_cart()
+remove_from_Cart()
+show_cart()
+show_store()
+login()
+logout()
+open_new_store()
+get_next_complaint()
+register()
+remove_subscriber()
+add_new_product()
+add_store_owner()
+add_store_manager()
+inc_product_amount()
+remove_product()
+change_details_of_product()
+remove_store_owner()
+remove_store_manager()
+close_store()
+make_purchase()
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>423</x>
+      <y>648</y>
+      <w>144</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>140.0;40.0;140.0;70.0;10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>666</x>
+      <y>621</y>
+      <w>198</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;90.0;200.0;90.0;200.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>936</x>
+      <y>378</y>
+      <w>135</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;40.0;130.0;40.0;130.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>324</x>
+      <y>441</y>
+      <w>666</w>
+      <h>297</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>690.0;10.0;720.0;10.0;720.0;310.0;10.0;310.0;10.0;240.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1305</x>
+      <y>360</y>
+      <w>81</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;120.0;70.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1152</x>
+      <y>378</y>
+      <w>333</w>
+      <h>198</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>350.0;180.0;350.0;200.0;10.0;200.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1161</x>
+      <y>729</y>
+      <w>90</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>80.0;50.0;80.0;30.0;10.0;30.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>999</x>
+      <y>729</y>
+      <w>99</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;30.0;90.0;30.0;90.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1089</x>
+      <y>378</y>
+      <w>306</w>
+      <h>234</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;240.0;320.0;240.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1206</x>
+      <y>27</y>
+      <w>198</w>
+      <h>153</h>
+    </coordinates>
+    <panel_attributes>BuyingPolicy
+
+
+    </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>810</x>
+      <y>27</y>
+      <w>198</w>
+      <h>153</h>
+    </coordinates>
+    <panel_attributes>DiscountPolicy
+
+
+
+    </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>999</x>
+      <y>90</y>
+      <w>63</w>
+      <h>135</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;50.0;10.0;50.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1161</x>
+      <y>90</y>
+      <w>63</w>
+      <h>135</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>50.0;10.0;10.0;10.0;10.0;130.0</additional_attributes>
+  </element>
+</diagram>

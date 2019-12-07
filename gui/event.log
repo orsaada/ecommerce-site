@@ -1,0 +1,311 @@
+2019-06-16 13:44:55,004 INFO Successful retrieval of products
+2019-06-16 13:50:20,107 INFO Successful retrieval of products
+2019-06-16 13:50:58,056 INFO Successful retrieval of products
+2019-06-16 16:16:28,374 INFO The states received successfully
+2019-06-16 16:18:19,569 INFO The states received successfully
+2019-06-16 16:19:42,258 INFO The states received successfully
+2019-06-16 16:25:49,539 INFO The states received successfully
+2019-06-16 16:26:09,689 INFO The states received successfully
+2019-06-16 16:30:23,720 INFO The states received successfully
+2019-06-16 16:30:41,303 INFO The states received successfully
+2019-06-16 16:45:37,753 INFO The authentication is failed
+2019-06-16 16:47:31,260 INFO The authentication is failed
+2019-06-16 16:47:35,042 INFO The states received successfully
+2019-06-16 16:54:48,596 INFO The states received successfully
+2019-06-16 16:58:03,942 INFO The states received successfully
+2019-06-16 16:58:10,516 INFO The store that sells this product is not available
+2019-06-16 16:58:49,673 INFO New product was added to cart successfully
+2019-06-16 17:03:57,995 INFO The states received successfully
+2019-06-16 17:04:04,290 INFO Successful retrieval of shopping cart
+2019-06-16 17:04:05,934 INFO Successful retrieval of shopping cart
+2019-06-16 17:04:09,953 INFO Successful retrieval of shopping cart
+2019-06-16 17:04:13,035 INFO Successful retrieval of shopping cart
+2019-06-16 17:11:36,151 INFO The states received successfully
+2019-06-16 17:11:42,126 INFO Successful retrieval of shopping cart
+2019-06-16 17:11:45,737 INFO Successful retrieval of shopping cart
+2019-06-16 17:12:04,623 INFO Successful retrieval of shopping cart
+2019-06-16 17:12:07,463 INFO Successful retrieval of shopping cart
+2019-06-16 17:12:31,943 INFO Successful retrieval of shopping cart
+2019-06-16 17:12:34,821 INFO Successful retrieval of shopping cart
+2019-06-16 17:12:36,451 INFO Successful retrieval of shopping cart
+2019-06-16 17:12:36,952 INFO Successful retrieval of shopping cart
+2019-06-16 17:12:37,175 INFO Successful retrieval of shopping cart
+2019-06-16 17:26:34,580 INFO The states received successfully
+2019-06-16 17:27:08,687 INFO New store was opened by the user:ofek
+2019-06-16 17:37:04,394 INFO New user registered to the system
+2019-06-16 18:21:28,780 INFO The states received successfully
+2019-06-16 18:22:36,450 INFO The states received successfully
+2019-06-16 18:24:45,851 INFO The states received successfully
+2019-06-16 18:28:04,021 INFO The states received successfully
+2019-06-16 18:28:20,084 INFO The states received successfully
+2019-06-16 18:28:34,279 INFO The states received successfully
+2019-06-16 18:32:59,071 INFO The states received successfully
+2019-06-16 18:35:25,407 INFO The states received successfully
+2019-06-16 18:39:33,372 INFO The states received successfully
+2019-06-16 18:39:44,778 INFO The Store was Closed permanently
+2019-06-16 18:40:08,521 INFO The Store was Closed permanently
+2019-06-16 18:40:13,880 INFO The Store was Closed permanently
+2019-06-16 18:40:15,318 INFO The Store was Closed permanently
+2019-06-16 18:46:46,443 INFO The states received successfully
+2019-06-16 18:47:06,087 INFO The user removed successfully
+2019-06-16 18:47:12,676 INFO The user removed successfully
+2019-06-16 18:47:27,565 INFO The user removed successfully
+2019-06-16 19:03:03,596 INFO The states received successfully
+2019-06-16 19:04:28,868 INFO This user cannot add new product to this store
+2019-06-16 19:04:48,915 INFO The states received successfully
+2019-06-16 19:05:35,169 INFO The product added successfully
+2019-06-16 19:14:32,821 INFO The states received successfully
+2019-06-16 19:15:01,204 INFO The product added successfully
+2019-06-16 19:15:18,823 INFO This user cannot add new product to this store
+2019-06-16 19:34:29,526 INFO The states received successfully
+2019-06-16 19:39:08,410 INFO The states received successfully
+2019-06-16 19:39:58,347 INFO The states received successfully
+2019-06-16 19:40:04,537 INFO The product was removed successfully
+2019-06-16 19:42:53,324 INFO The states received successfully
+2019-06-16 19:43:07,876 INFO The product was removed successfully
+2019-06-16 19:45:24,754 INFO The states received successfully
+2019-06-16 19:45:47,702 INFO This user cannot decrement the product amount in this store
+2019-06-16 20:44:50,490 INFO The states received successfully
+2019-06-16 20:46:43,344 INFO Illegal attribute
+2019-06-16 20:49:27,023 INFO The states received successfully
+2019-06-17 11:10:55,520 INFO Cannot create new admin
+2019-06-17 11:11:50,571 INFO Cannot create new admin
+2019-06-17 11:12:47,774 INFO Cannot create new admin
+2019-06-17 11:13:12,986 INFO Cannot create new admin
+2019-06-17 11:13:13,000 INFO New user registered to the system
+2019-06-17 11:13:42,127 INFO Cannot create new admin
+2019-06-17 11:18:16,749 INFO New user registered to the system
+2019-06-17 11:19:29,935 INFO New user registered to the system
+2019-06-17 11:20:25,586 INFO New user registered to the system
+2019-06-17 11:22:10,826 INFO New user registered to the system
+2019-06-17 11:22:27,265 INFO Cannot create new admin
+2019-06-17 11:22:47,336 INFO Cannot create new admin
+2019-06-17 11:22:47,344 INFO The states received successfully
+2019-06-17 11:23:15,108 INFO Cannot create new admin
+2019-06-17 11:23:15,111 INFO The states received successfully
+2019-06-17 11:24:36,589 INFO Cannot create new admin
+2019-06-17 11:24:36,595 INFO The states received successfully
+2019-06-17 11:29:58,744 INFO Cannot create new admin
+2019-06-17 11:29:58,749 INFO The states received successfully
+2019-06-17 11:34:57,713 INFO Cannot create new admin
+2019-06-17 11:34:57,719 INFO The states received successfully
+2019-06-17 11:42:47,001 INFO Cannot create new admin
+2019-06-17 11:42:47,011 INFO The states received successfully
+2019-06-17 12:01:46,709 INFO Cannot create new admin
+2019-06-17 12:01:46,718 INFO The states received successfully
+2019-06-17 12:02:58,370 INFO Cannot create new admin
+2019-06-17 12:02:58,376 INFO The states received successfully
+2019-06-17 12:04:17,073 INFO Cannot create new admin
+2019-06-17 12:04:17,077 INFO The states received successfully
+2019-06-17 12:04:52,017 INFO Cannot create new admin
+2019-06-17 12:04:52,024 INFO The states received successfully
+2019-06-17 12:05:46,236 INFO Cannot create new admin
+2019-06-17 12:05:46,240 INFO The states received successfully
+2019-06-17 12:07:49,916 INFO Cannot create new admin
+2019-06-17 12:07:49,925 INFO The states received successfully
+2019-06-17 12:07:49,937 INFO New store was opened by the user:u2
+2019-06-17 12:08:24,632 INFO Cannot create new admin
+2019-06-17 12:08:24,634 INFO The states received successfully
+2019-06-17 12:08:24,643 INFO New store was opened by the user:u2
+2019-06-17 12:36:06,003 INFO Cannot create new admin
+2019-06-17 12:36:06,003 INFO The states received successfully
+2019-06-17 12:36:06,019 INFO New store was opened by the user:u2
+2019-06-17 12:37:05,448 INFO The states received successfully
+2019-06-17 12:44:56,168 INFO The states received successfully
+2019-06-17 12:45:14,452 INFO The states received successfully
+2019-06-17 12:50:07,924 INFO The states received successfully
+2019-06-17 12:53:58,090 INFO The states received successfully
+2019-06-17 12:54:20,536 INFO Product's detail was changed successfully
+2019-06-17 13:32:02,415 INFO The states received successfully
+2019-06-17 13:33:10,156 INFO The states received successfully
+2019-06-17 13:33:28,965 INFO The states received successfully
+2019-06-17 13:37:53,723 INFO The states received successfully
+2019-06-17 13:37:59,721 INFO New manager was added to the store
+2019-06-17 13:39:03,458 INFO The states received successfully
+2019-06-17 13:39:10,282 INFO The appointed username is'nt an owner of this store
+2019-06-17 13:40:50,324 INFO The states received successfully
+2019-06-17 13:40:59,891 INFO The appointed username is'nt an owner of this store
+2019-06-17 13:41:41,381 INFO The states received successfully
+2019-06-17 13:41:47,637 INFO The appointed username is'nt an owner of this store
+2019-06-17 13:41:57,354 INFO This manager was removed successfully
+2019-06-17 13:42:04,838 INFO The appointed username is'nt a manager of this store
+2019-06-17 13:42:10,668 INFO New owner was added to the store
+2019-06-17 13:42:33,050 INFO The appointed username is'nt a manager of this store
+2019-06-17 13:42:36,962 INFO The appointed username is'nt a manager of this store
+2019-06-17 13:42:44,337 INFO This owner was removed successfully
+2019-06-17 13:48:20,816 INFO The states received successfully
+2019-06-17 13:49:31,647 INFO The states received successfully
+2019-06-17 13:50:07,709 INFO The states received successfully
+2019-06-17 13:50:11,473 INFO The user isn't an owner or manager of this store
+2019-06-17 13:50:14,331 INFO The store was closed successfully
+2019-06-17 15:49:08,375 INFO The states received successfully
+2019-06-17 15:54:36,729 INFO The states received successfully
+2019-06-17 15:55:15,735 INFO The states received successfully
+2019-06-17 16:00:51,988 INFO The states received successfully
+2019-06-17 16:09:14,511 INFO The states received successfully
+2019-06-17 16:11:14,366 INFO The authentication is failed
+2019-06-17 16:11:17,827 INFO The states received successfully
+2019-06-17 16:12:42,762 INFO The states received successfully
+2019-06-17 16:20:06,645 INFO The states received successfully
+2019-06-17 16:23:28,667 INFO The states received successfully
+2019-06-17 16:30:50,086 INFO The states received successfully
+2019-06-17 18:15:11,653 INFO The states received successfully
+2019-06-17 18:16:44,559 INFO The states received successfully
+2019-06-17 18:22:40,426 INFO The states received successfully
+2019-06-17 18:24:27,655 INFO The states received successfully
+2019-06-17 18:27:30,386 INFO The states received successfully
+2019-06-17 18:29:34,915 INFO The states received successfully
+2019-06-17 18:29:41,869 INFO Product's detail was changed successfully
+2019-06-17 18:29:41,882 INFO Product's detail was changed successfully
+2019-06-17 18:36:27,736 INFO The states received successfully
+2019-06-17 18:37:15,986 INFO The states received successfully
+2019-06-17 18:37:48,358 INFO Successful retrieval of shopping cart
+2019-06-17 18:37:51,122 INFO Successful retrieval of shopping cart
+2019-06-17 18:38:51,508 INFO The states received successfully
+2019-06-17 18:39:01,027 INFO Store's detail was changed successfully
+2019-06-17 18:39:01,033 INFO Store's detail was changed successfully
+2019-06-17 18:46:56,444 INFO The states received successfully
+2019-06-17 18:47:09,827 INFO Product's detail was changed successfully
+2019-06-17 18:50:39,238 INFO The states received successfully
+2019-06-17 18:51:40,171 INFO The states received successfully
+2019-06-18 12:14:44,778 INFO Successful retrieval of products
+2019-06-18 12:14:46,343 INFO Successful retrieval of products
+2019-06-18 12:14:47,692 INFO Successful retrieval of products
+2019-06-18 12:14:47,830 INFO Successful retrieval of products
+2019-06-18 12:14:47,989 INFO Successful retrieval of products
+2019-06-18 12:14:48,150 INFO Successful retrieval of products
+2019-06-18 12:14:51,459 INFO Successful retrieval of products
+2019-06-18 12:14:52,075 INFO Successful retrieval of products
+2019-06-18 12:14:52,225 INFO Successful retrieval of products
+2019-06-18 12:14:52,375 INFO Successful retrieval of products
+2019-06-18 15:45:02,999 INFO The states received successfully
+2019-06-18 15:46:22,443 INFO Successful retrieval of products
+2019-06-18 15:49:47,192 INFO New store was opened by the user:ofek
+2019-06-18 15:50:20,392 INFO The product added successfully
+2019-06-18 16:05:55,556 INFO Successful retrieval of shopping cart
+2019-06-18 16:34:34,132 INFO Successful retrieval of shopping cart
+2019-06-18 16:51:35,568 INFO The states received successfully
+2019-06-18 16:58:34,769 INFO The states received successfully
+2019-06-18 17:04:14,173 INFO The product was removed from cart successfully
+2019-06-18 17:40:59,554 INFO The states received successfully
+2019-06-18 17:41:03,616 INFO The states received successfully
+2019-06-18 17:41:59,656 INFO The states received successfully
+2019-06-18 19:21:07,937 INFO The authentication is failed
+2019-06-18 19:21:15,525 INFO The states received successfully
+2019-06-18 19:43:08,065 INFO The states received successfully
+2019-06-18 19:44:37,227 INFO The states received successfully
+2019-06-18 20:14:53,620 INFO The states received successfully
+2019-06-18 20:55:42,539 INFO The authentication is failed
+2019-06-18 20:55:47,250 INFO The states received successfully
+2019-06-18 20:55:57,909 INFO New store was opened by the user:ofek
+2019-06-18 21:24:15,999 INFO The states received successfully
+2019-06-18 21:24:34,961 INFO New store was opened by the user:ofek
+2019-06-18 21:28:10,675 INFO The states received successfully
+2019-06-18 21:34:31,742 INFO The states received successfully
+2019-06-18 21:34:56,557 INFO The regular discount added successfully
+2019-06-18 21:35:47,293 INFO The conditional discount added successfully
+2019-06-18 21:37:57,830 INFO The conditional discount added successfully
+2019-06-18 21:46:55,671 INFO The states received successfully
+2019-06-18 21:47:01,455 INFO Successful retrieval of shopping cart
+2019-06-18 21:48:52,904 INFO The states received successfully
+2019-06-18 21:48:56,363 INFO Successful retrieval of shopping cart
+2019-06-18 22:00:41,898 INFO Successful retrieval of shopping cart
+2019-06-18 22:00:51,219 INFO Successful retrieval of shopping cart
+2019-06-18 22:02:11,003 INFO The states received successfully
+2019-06-18 22:02:14,524 INFO Successful retrieval of shopping cart
+2019-06-18 22:02:31,188 INFO Successful retrieval of store
+2019-06-18 22:05:37,037 INFO The states received successfully
+2019-06-18 22:05:40,928 INFO Successful retrieval of store
+2019-06-18 22:08:59,559 INFO The states received successfully
+2019-06-18 22:09:34,363 INFO The states received successfully
+2019-06-18 22:09:37,949 INFO Successful retrieval of store
+2019-06-18 22:10:10,024 INFO Successful retrieval of shopping cart
+2019-06-18 22:20:48,195 INFO The states received successfully
+2019-06-18 22:21:39,122 INFO The states received successfully
+2019-06-18 22:26:42,036 INFO The states received successfully
+2019-06-18 22:27:47,984 INFO The states received successfully
+2019-06-18 22:28:11,102 INFO The states received successfully
+2019-06-18 22:30:25,824 INFO The states received successfully
+2019-06-18 22:31:56,244 INFO The states received successfully
+2019-06-18 22:33:22,986 INFO The states received successfully
+2019-06-18 22:39:31,465 INFO The states received successfully
+2019-06-18 22:41:07,860 INFO The states received successfully
+2019-06-18 22:42:43,430 INFO The states received successfully
+2019-06-18 22:43:22,948 INFO The states received successfully
+2019-06-18 23:09:59,603 INFO The purchase was made successfully
+2019-06-18 23:16:29,293 INFO The purchase was made successfully
+2019-06-18 23:20:56,438 INFO The states received successfully
+2019-06-18 23:21:23,958 INFO succeed transaction1
+2019-06-18 23:21:23,960 INFO The purchase was made successfully
+2019-06-18 23:23:30,993 INFO Successful retrieval of store
+2019-06-18 23:26:14,504 INFO Successful retrieval of store
+2019-06-18 23:39:14,421 INFO Empty basket
+2019-06-18 23:45:00,160 INFO The states received successfully
+2019-06-18 23:45:17,731 INFO This user cannot make the purchase with this cart
+2019-06-18 23:47:06,071 INFO The states received successfully
+2019-06-18 23:47:51,726 INFO succeed transaction1
+2019-06-18 23:47:51,729 INFO The purchase was made successfully
+2019-06-18 23:51:30,664 INFO The states received successfully
+2019-06-18 23:51:47,500 INFO succeed transaction1
+2019-06-18 23:51:47,504 INFO The purchase was made successfully
+2019-06-18 23:54:38,128 INFO Empty basket
+2019-06-18 23:55:29,996 INFO The states received successfully
+2019-06-18 23:55:57,180 INFO succeed transaction1
+2019-06-18 23:55:57,182 INFO The purchase was made successfully
+2019-06-19 00:11:44,857 INFO The states received successfully
+2019-06-19 00:12:08,451 INFO The states received successfully
+2019-06-19 00:12:31,658 INFO The user removed successfully
+2019-06-19 00:17:51,526 INFO The states received successfully
+2019-06-19 00:18:33,929 INFO Successful retrieval of shopping cart
+2019-06-19 00:24:25,865 INFO The states received successfully
+2019-06-19 00:29:51,580 INFO The states received successfully
+2019-06-19 00:34:24,210 INFO The states received successfully
+2019-06-19 00:50:18,424 INFO New admin was created
+2019-06-19 00:50:18,455 INFO New user registered to the system
+2019-06-19 00:50:18,549 INFO New admin was created
+2019-06-19 00:50:18,580 INFO New user registered to the system
+2019-06-19 00:50:18,596 INFO New user registered to the system
+2019-06-19 00:50:18,627 INFO New user registered to the system
+2019-06-19 00:50:19,536 INFO New user registered to the system
+2019-06-19 00:50:19,567 INFO New user registered to the system
+2019-06-19 00:50:19,614 INFO New store was opened by the user:U11
+2019-06-19 00:53:48,174 INFO New admin was created
+2019-06-19 00:53:48,205 INFO New user registered to the system
+2019-06-19 00:53:48,252 INFO New admin was created
+2019-06-19 00:53:48,283 INFO New user registered to the system
+2019-06-19 00:53:48,299 INFO New user registered to the system
+2019-06-19 00:53:48,330 INFO New user registered to the system
+2019-06-19 00:53:48,361 INFO New user registered to the system
+2019-06-19 00:53:48,377 INFO New user registered to the system
+2019-06-19 00:54:53,399 INFO New admin was created
+2019-06-19 00:54:53,446 INFO New admin was created
+2019-06-19 00:54:53,462 INFO New user registered to the system
+2019-06-19 00:54:53,493 INFO New user registered to the system
+2019-06-19 00:54:53,508 INFO New user registered to the system
+2019-06-19 00:54:53,539 INFO New user registered to the system
+2019-06-19 00:54:53,555 INFO New user registered to the system
+2019-06-19 00:54:53,586 INFO New store was opened by the user:U11
+2019-06-19 00:56:26,570 INFO New admin was created
+2019-06-19 00:56:26,617 INFO New admin was created
+2019-06-19 00:56:26,633 INFO New user registered to the system
+2019-06-19 00:56:26,664 INFO New user registered to the system
+2019-06-19 00:56:26,679 INFO New user registered to the system
+2019-06-19 00:56:26,711 INFO New user registered to the system
+2019-06-19 00:56:26,758 INFO New user registered to the system
+2019-06-19 00:56:26,805 INFO New store was opened by the user:U11
+2019-06-19 00:58:03,731 INFO New admin was created
+2019-06-19 00:58:03,778 INFO New admin was created
+2019-06-19 00:58:03,815 INFO New user registered to the system
+2019-06-19 00:58:03,831 INFO New user registered to the system
+2019-06-19 00:58:03,847 INFO New user registered to the system
+2019-06-19 00:58:03,878 INFO New user registered to the system
+2019-06-19 00:58:03,894 INFO New user registered to the system
+2019-06-19 00:58:03,952 INFO New store: S2was opened by the user: U11
+2019-06-19 00:58:16,777 INFO New admin was created
+2019-06-19 00:58:16,856 INFO New admin was created
+2019-06-19 00:58:16,871 INFO New user registered to the system
+2019-06-19 00:58:17,643 INFO New user registered to the system
+2019-06-19 00:58:17,659 INFO New user registered to the system
+2019-06-19 00:58:17,681 INFO New user registered to the system
+2019-06-19 00:58:17,696 INFO New user registered to the system
+2019-06-19 00:58:17,728 INFO New store: S2 was opened by the user: U11

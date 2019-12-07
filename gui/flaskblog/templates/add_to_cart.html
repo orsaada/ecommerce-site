@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<div class="content-section">
+    <form method="POST" action="">
+        {{ form.hidden_tag() }}
+        <fieldset class="form-group">
+            <legend class="border-bottom mb-4">{{ legend }}</legend>
+            {% if not is_logged_in %}
+            <div class="form-group">
+                Store Number
+                <input type="number" name="store_number" min="0">
+            </div>
+            {% endif %}
+
+            <div class="form-group">
+              Catalog Number
+                <input type="number" name="catalog_number" min="0">
+            </div>
+        </fieldset>
+        <div class="form-group">
+            {{ form.submit(class="btn btn-outline-info") }}
+        </div>
+    </form>
+</div>
+
+
+{% endblock content %}

@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+{% block content %}
+
+    <div class="content-section">
+    <form method="POST" action="">
+        {{ form.hidden_tag() }}
+        <fieldset class="form-group">
+            <legend class="border-bottom mb-4">{{ legend }}</legend>
+
+            <div class="form-group">
+                Catalog Number
+                <input type="number" name="catalog_number" min="0">
+            </div>
+
+            <div class="form-group">
+                Discount Percentage
+                <input type="number" name="discount_percentage" min="0" max="100">
+            </div>
+
+             <div class="form-group">
+                Double Deals (1=yes , 0=no)
+                <select name="double_deals">
+                     <option>1</option>
+                     <option>0</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                Start Date
+                <input type="date" name="start_date">
+            </div>
+
+            <div class="form-group">
+                End Date
+                <input type="date" name="end_date">
+            </div>
+
+        </fieldset>
+        <div class="form-group">
+            {{ form.submit(class="btn btn-outline-info") }}
+        </div>
+
+    </form>
+</div>
+
+{% endblock content %}

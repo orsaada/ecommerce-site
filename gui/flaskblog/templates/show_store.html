@@ -1,0 +1,34 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<div class="content-section">
+    <form method="POST" action="">
+        {{ form.hidden_tag() }}
+        <fieldset class="form-group">
+            <legend class="border-bottom mb-4">{{ legend }}</legend>
+            <div class="form-group">
+                Store Number
+                <input type="number" name="store_number" min="0">
+            </div>
+        </fieldset>
+        <div class="form-group">
+            {{ form.submit(class="btn btn-outline-info") }}
+        </div>
+    </form>
+</div>
+
+{% for product in products %}
+<article class="media content-section">
+    <div class="media-body">
+        <div class="article-metadata">
+            <h3><a class="mr-2"> {{ product[1] }}</a></h3>
+        </div>
+        <h6><a class="article-content"> Store Number: {{ product[0] }}</a></h6>
+        <h6><a class="article-content"> Name: {{ product[1] }}</a></h6>
+        <h6><a class="article-content"> Is Open ?: {{ product[2] }}</a></h6>
+        <h6><a class="article-content"> Account Number: {{ product[4] }}</a></h6>
+    </div>
+</article>
+{% endfor %}
+
+{% endblock content %}

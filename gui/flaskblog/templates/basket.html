@@ -1,0 +1,83 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<div class="content-section">
+    <form method="POST" action="">
+        {{ form.hidden_tag() }}
+        <fieldset class="form-group">
+            <legend class="border-bottom mb-4">{{ legend }}</legend>
+
+            <div class="form-group">
+                Card Number
+                <input type="number" name="card_number" min="0">
+            </div>
+
+            <div class="form-group">
+                Month
+                <input type="number" name="month" min="1" max="12">
+            </div>
+
+            <div class="form-group">
+                Year
+                <input type="number" name="year" min="2019" max="3000">
+            </div>
+
+            <div class="form-group">
+                Holder
+                <input type="text" name="holder">
+            </div>
+
+            <div class="form-group">
+                CVV
+                <input type="number" name="CVV" min="100" max="999">
+            </div>
+
+             <div class="form-group">
+                Street
+                <input type="text" name="street">
+            </div>
+
+             <div class="form-group">
+                City
+                <input type="text" name="city">
+            </div>
+
+             <div class="form-group">
+                Country
+                <input type="text" name="country">
+            </div>
+
+             <div class="form-group">
+                ZIP Code
+                <input type="number" name="zip" min="10000" max="9999999">
+            </div>
+
+{#            {% if not is_logged_in %}#}
+{#            <div class="form-group">#}
+{#                Age#}
+{#                <input type="number" name="age" min="0" max="120">#}
+{#            </div>#}
+{#            {% endif %}#}
+
+        </fieldset>
+        <div class="form-group">
+            {{ form.submit(class="btn btn-outline-info") }}
+        </div>
+    </form>
+
+{% for product in products %}
+<article class="media content-section">
+    <div class="media-body">
+        <div class="article-metadata">
+            <h3><a class="mr-2"> {{ product[1] }}</a></h3>
+        </div>
+        <h6><a class="article-content"> Transaction id: {{ product.transaction_id }}</a></h6>
+        <h6><a class="article-content"> Total Price: {{ product.total_price  }}</a></h6>
+        <h6><a class="article-content"> From Store Number: {{ product.store_number }}</a></h6>
+    </div>
+</article>
+{% endfor %}
+
+</div>
+
+{% endblock content %}
